@@ -15,7 +15,7 @@ public class LoginActivity extends AppCompatActivity {
     Button enterBtn;
 
     //This is my login page
-    //another to try
+    //another to try commit
 
 
     @Override
