@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="1dp"
+        android:id="@+id/cardview"
+        android:layout_marginBottom="5dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:background="@color/cardview_light_background"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/doctor"
+                android:scaleType="fitCenter"
+                android:id="@+id/img_id"
+                android:background="@color/cardview_light_background"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fazle Rabbi Ador"
+                android:layout_toRightOf="@+id/img_id"
+                android:layout_marginLeft="40dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/nameTV"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Heart"
+                android:layout_below="@+id/nameTV"
+                android:layout_toRightOf="@+id/img_id"
+                android:layout_marginLeft="40dp"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:paddingTop="3dp"
+                android:id="@+id/specialityTV"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+880296672277"
+                android:layout_below="@+id/specialityTV"
+                android:layout_toRightOf="@+id/img_id"
+                android:layout_marginLeft="40dp"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:paddingTop="3dp"
+                android:id="@+id/phoneTV"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dhaka Medical College"
+                android:layout_below="@+id/phoneTV"
+                android:layout_toRightOf="@+id/img_id"
+                android:layout_marginLeft="40dp"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:paddingTop="2dp"
+                android:id="@+id/addressTV"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

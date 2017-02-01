@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dr_info_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="10dp"
+    android:orientation="vertical"
+    android:paddingRight="10dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ador.medex.Activity.DrInfoListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+
+        <TextView
+            android:text="Dr. List"
+            android:paddingRight="15dp"
+            android:gravity="center_vertical"
+            android:textSize="50dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:layout_marginLeft="200dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/adduser"
+            android:onClick="moveToInsertPage"
+            />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/house"
+            android:onClick="home"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/drInfoLV"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

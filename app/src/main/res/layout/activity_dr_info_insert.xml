@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/iphoneback"
+    tools:context="com.ador.medex.Activity.DrInfoInsertActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Enter Doctors Info"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="60dp"
+        android:id="@+id/nameET"
+        android:hint="@string/enter_dr_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/specialityET"
+        android:hint="@string/specialist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/phoneET"
+        android:hint="@string/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/addressET"
+        android:hint="@string/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="35dp"
+        android:id="@+id/saveBtn"
+        android:padding="25dp"
+        android:layout_width="88dp"
+        android:layout_height="79dp"
+        android:onClick="save"
+        android:background="@mipmap/adduser"
+        android:layout_gravity="right" />
+
+</LinearLayout>

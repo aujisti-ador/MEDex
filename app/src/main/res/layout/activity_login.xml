@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listback"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ador.medex.Activity.LoginActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MEDex"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/firstaidbad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/pinET"
+        android:inputType="numberPassword"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:layout_gravity="bottom"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffffff"
+        android:textSize="25dp"
+        android:hint="Enter Your Pin"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorPrimary"
+        android:id="@+id/enterBtn"
+        android:onClick="enter"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:textAllCaps="false"
+        android:layout_weight="0.03" />
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/homeback"
+    tools:context="com.ador.medex.Activity.HomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="MEDex Home"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#deb61d1d"/>
+
+    <Button
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:paddingTop="70dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+
+        android:background="@mipmap/hospitalround2"
+        android:onClick="hospitalList"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+    <Button
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#0a0000"
+        android:textSize="20dp"
+        android:background="@mipmap/doctorround"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:onClick="drList"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+</LinearLayout>

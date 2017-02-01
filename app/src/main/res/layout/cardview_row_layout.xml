@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    >
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="1dp"
+    android:id="@+id/cardview"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:background="@color/cardview_light_background"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/updateuser"
+            android:scaleType="fitCenter"
+            android:id="@+id/img_id"
+            android:background="@color/cardview_light_background"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Japan Bangladesh Friendship Hospital"
+            android:layout_toRightOf="@+id/img_id"
+            android:layout_marginLeft="25dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:id="@+id/name"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Private Hospital"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@+id/img_id"
+            android:layout_marginLeft="25dp"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:paddingTop="3dp"
+            android:id="@+id/status"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+880296672277"
+            android:layout_below="@+id/status"
+            android:layout_toRightOf="@+id/img_id"
+            android:layout_marginLeft="25dp"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:paddingTop="3dp"
+            android:id="@+id/phone"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="open 24 hours"
+            android:layout_below="@+id/phone"
+            android:layout_toRightOf="@+id/img_id"
+            android:layout_marginLeft="25dp"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:paddingTop="2dp"
+            android:id="@+id/open"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+</LinearLayout>
