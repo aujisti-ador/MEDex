@@ -14,6 +14,8 @@ public class LoginActivity extends AppCompatActivity {
     EditText pinET;
     Button enterBtn;
 
+    //This is my login page
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
